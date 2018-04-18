@@ -6,6 +6,8 @@ import NumberBox from './components/NumberBox';
 import RangeSlider from './components/RangeSlider';
 import ResultCard from './components/ResultCard';
 import DateRange from './components/DateRange';
+import DataSearch from './components/DataSearch';
+
 
 
 class App extends Component {
@@ -21,9 +23,10 @@ class App extends Component {
           }}
           >
           <nav className="nav">
-            <div className="title"><strong>Airbeds</strong></div>
+            <div className="title"><strong>Airbeds</strong>  </div>
           </nav>
           <div className="left-col">
+            <DataSearch />
             <Calendar />
             <NumberBox />
             <RangeSlider />
